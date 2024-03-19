@@ -1,0 +1,349 @@
+@import "reset.css";
+/*Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*
+font-family: 'Rubik', sans-serif;
+font-family: "Poppins", sans-serif;
+*/
+/*Fonts*/
+* {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*Header*/
+.header {
+  padding: 41px 0;
+  height: 750px;
+  background-position: center;
+  background-image: url("./../img-cars/header/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+  flex-shrink: 0;
+}
+.container {
+  padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 153px;
+}
+.nav {
+}
+.nav_list {
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+  flex-shrink: 0;
+}
+.nav_btn {
+  display: none;
+}
+.nav_item {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.active {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.nav_link {
+  flex-shrink: 0;
+  color: #fff;
+}
+.english,
+.russian {
+  color: #fff;
+  flex-shrink: 0;
+}
+.header_translater {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  column-gap: 8px;
+}
+.active-2 {
+  color: #b7b7b7;
+}
+.header_title {
+  margin-bottom: 53px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 72px;
+}
+.btn {
+  padding: 11px 48px 11px 48px;
+  color: #fff;
+  background-color: #db2512;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*end Header*/
+
+/*Services content*/
+
+.services {
+  position: relative;
+  padding: 98px 0;
+}
+
+/*card-services*/
+.card_wrap {
+  margin-top: -195px;
+  display: flex;
+  justify-content: center;
+  column-gap: 21px;
+  margin-bottom: 99px;
+}
+.card_1 {
+  width: 386px;
+  min-height: 196px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.icon_card {
+  padding: 39px 0px 0px 39px;
+  margin-bottom: 21px;
+}
+.title_card {
+  padding-left: 39px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+  margin-bottom: 15px;
+}
+.subtitle {
+  padding-left: 39px;
+  color: #b7b7b7;
+  font-weight: 400;
+}
+/*end Services card*/
+
+/*Our-Services*/
+.content_title {
+  text-align: left;
+  margin-bottom: 60px;
+}
+.title-1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  margin-bottom: 15px;
+}
+.our-subtitle a {
+  padding-left: 3px;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-decoration: underline;
+}
+
+.page_services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 21px;
+}
+.card_img img {
+  width: 368px;
+
+  margin-bottom: 21px;
+}
+.img_subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  flex-shrink: 0;
+}
+
+/*About US page*/
+.aboutus {
+  background-color: #171616;
+  min-height: 665px;
+  padding: 117px 0;
+}
+.info_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_title {
+  width: 490px;
+  height: auto;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+
+  letter-spacing: 4.5px;
+  margin-bottom: 42px;
+}
+.info_text {
+  width: 506px;
+  height: auto;
+  color: #b7b7b7;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 3.45px;
+
+  margin-bottom: 45px;
+}
+
+.info_subtitle a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2.7px;
+  text-decoration: underline;
+}
+
+/*About 2*/
+.about_2 {
+  padding: 99px 0;
+  min-height: 725px;
+}
+
+.title {
+  font-size: 142px;
+  font-weight: 900;
+  flex-shrink: 0;
+  text-align: center;
+  margin-bottom: 58px;
+}
+.subtitle_ab {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 92px;
+}
+.card_about {
+  display: flex;
+  justify-content: center;
+  column-gap: 19px;
+}
+.card_ab {
+  width: 386px;
+  min-height: 150px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.title_ab {
+  padding-top: 31px;
+  padding-left: 30px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+  margin-bottom: 15px;
+}
+.subtitle_abb {
+  padding-left: 30px;
+  color: #b7b7b7;
+  font-weight: 400;
+}
+
+/*Contacts*/
+
+.contacts {
+  padding: 97px 0;
+  background-color: #171616;
+  height: 665px;
+}
+.title_contact {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  margin-bottom: 46px;
+}
+
+.form_name {
+  width: 197px;
+
+  display: flex;
+  column-gap: 46px;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.form_name input {
+  padding-bottom: 9px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+  border-bottom: 1px solid #fff;
+}
+
+.form_email {
+  width: 197px;
+
+  display: flex;
+  column-gap: 46px;
+  align-items: center;
+  margin-bottom: 54px;
+}
+.form_email input {
+  padding-bottom: 9px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+  border-bottom: 1px solid #fff;
+}
+
+.form input::placeholder {
+  color: #fff;
+}
+.message {
+  margin-bottom: 37px;
+}
+.message label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+}
+.message textarea {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+  outline: none;
+  width: 417px;
+  border-bottom: 1px solid #fff;
+}
+
+/*Footer*/
+
+.footer {
+  padding: 66px 0;
+  height: 150px;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.foot_title {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+}
+.social {
+  display: flex;
+  column-gap: 21px;
+}
