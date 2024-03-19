@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 10px 47px;
+  width: 1426px;
+}
+.logo {
+  text-align: center;
+  font-size: 74px;
+  font-weight: 700;
+}
+.main {
+  display: flex;
+}
+.title {
+  font-size: 74px;
+  font-weight: 300;
+
+  line-height: 66.66px;
+  width: 878.71px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.7);
+}
+
+.button a {
+  font-size: 39.78px;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: lowercase;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 2px 22px 11px 20px;
+  border: 6px solid black;
+  border-radius: 12px;
+}
+
+.phone-1 {
+  z-index: 1;
+  position: relative;
+  right: -305px;
+  width: 268px;
+  height: 507px;
+}
+.phone-2 {
+  z-index: 2;
+  position: absolute;
+  right: 70px;
+  bottom: -10px;
+  width: 436px;
+  height: 476px;
+}
